@@ -1,0 +1,326 @@
+[
+	{
+		"timeStart": 0,
+		"timeEnd": 6000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+	{
+		"timeStart": 7000,
+		"timeEnd": 10000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+	{
+		"timeStart": 11000,
+		"timeEnd": 12000,
+		"posStart": 2,
+		"posEnd": 3
+	},
+	{
+		"timeStart": 13000,
+		"timeEnd": 15000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+	{
+		"timeStart": 16000,
+		"timeEnd": 19000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+	{
+		"timeStart": 19500,
+		"timeEnd": 21000,
+		"posStart": 1,
+		"posEnd": 0
+	},
+       {
+		"timeStart": 21500,
+		"timeEnd": 23000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+       {
+		"timeStart": 22000,
+		"timeEnd": 24000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart": 24500,
+		"timeEnd": 25500,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart": 25500,
+		"timeEnd": 27000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart": 28000,
+		"timeEnd": 29000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart": 30000,
+		"timeEnd": 31000,
+		"posStart": 1,
+		"posEnd": 0
+	},
+       {
+		"timeStart": 31000,
+		"timeEnd": 32000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+       {
+		"timeStart": 33000,
+		"timeEnd": 34000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":35000,
+		"timeEnd": 36000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":37000,
+		"timeEnd": 41000,
+		"posStart": 1,
+		"posEnd": 0
+	},
+       {
+		"timeStart":41000,
+		"timeEnd": 43000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+       {
+		"timeStart":44000,
+		"timeEnd": 46000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":47000,
+		"timeEnd": 48500,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart":48500,
+		"timeEnd": 50000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart":51000,
+		"timeEnd": 53000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":54000,
+		"timeEnd": 56000,
+		"posStart": 1,
+		"posEnd": 0
+	},
+       {
+		"timeStart":56000,
+		"timeEnd": 59000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+       {
+		"timeStart":60000,
+		"timeEnd": 62000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":62000,
+		"timeEnd": 63500,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart":63500,
+		"timeEnd": 65000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart":66000,
+		"timeEnd": 68000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":68000,
+		"timeEnd": 70000,
+		"posStart": 1,
+		"posEnd": 0
+	},
+       {
+		"timeStart":70000,
+		"timeEnd": 71000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+       {
+		"timeStart":72000,
+		"timeEnd": 74000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":74500,
+		"timeEnd": 76000,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart":77000,
+		"timeEnd": 79000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart":80000,
+		"timeEnd": 82000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":82000,
+		"timeEnd": 85000,
+		"posStart": 1,
+		"posEnd": 0
+	},
+       {
+		"timeStart":86500,
+		"timeEnd": 90000,
+		"posStart": 0,
+		"posEnd": 1
+	},
+       {
+		"timeStart":91500,
+		"timeEnd": 95000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":95500,
+		"timeEnd": 96000,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart":96500,
+		"timeEnd": 97500,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart":99000,
+		"timeEnd": 101000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":103000,
+		"timeEnd": 104500,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":105000,
+		"timeEnd": 106000,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart":106000,
+		"timeEnd": 107000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart":108000,
+		"timeEnd": 110000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":112000,
+		"timeEnd": 113500,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":114000,
+		"timeEnd": 115000,
+		"posStart": 2,
+		"posEnd": 3
+       },
+       {
+		"timeStart":115000,
+		"timeEnd": 116000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+       {
+		"timeStart":116000,
+		"timeEnd": 117500,
+		"posStart": 2,
+		"posEnd": 1
+	},
+       {
+		"timeStart":118000,
+		"timeEnd": 122000,
+		"posStart": 1,
+		"posEnd": 2
+	},
+       {
+		"timeStart":122500,
+		"timeEnd": 124000,
+		"posStart": 2,
+		"posEnd": 3
+	},
+       {
+		"timeStart":125500,
+		"timeEnd": 128000,
+		"posStart": 3,
+		"posEnd": 2
+	},
+    {
+		"timeStart":128000,
+		"timeEnd": 129000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+    {
+		"timeStart":129500,
+		"timeEnd": 130500,
+		"posStart": 1,
+		"posEnd": 2
+	},
+	{
+		"timeStart":131000,
+		"timeEnd": 133000,
+		"posStart": 2,
+		"posEnd": 1
+	},
+	{
+		"timeStart":135000,
+		"timeEnd": 135000,
+		"posStart": 1,
+		"posEnd": 0
+	}
+]
