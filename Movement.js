@@ -16,9 +16,8 @@ function Movement (_startP, _endP, _startT, _endT, _zone) {
   }  
   
   this.mapPosition = function (percent) {
-    if (percent <= 0) {
-      percent = 0.001;
-    }
+    if (percent < 0 || percent > 100)
+      percent = 0;
       
     var mappedX = map(percent, 0, 100, this.startPos.x, this.endPos.x);
     var mappedY = map(percent, 0, 100, this.startPos.y, this.endPos.y);
