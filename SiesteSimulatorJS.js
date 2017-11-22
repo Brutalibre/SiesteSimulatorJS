@@ -120,9 +120,10 @@ function initSounds() {
   return file;
 }
 
-function getColorAverage (cam) {
-  var avg = 0;
-  var bgt = 0;
+function getColorAverage (cam) {  
+  var avgR = 0;
+  var avgG = 0;
+  var avgB = 0;
   
   for (var x = 0; x < cam.width; x++) {
     for (var y = 0; y < cam.height; y++ ) {
@@ -134,12 +135,16 @@ function getColorAverage (cam) {
       var g = cam.pixels[loc+1];
       var b = cam.pixels[loc+2];
       
-      if (r >= 0 && g >= 0 && b >= 0) 
-        bgt += brightness(color(r, g, b));
+      if (r >= 0 && g >= 0 && b >= 0) {
+        avgR += r;
+        avgG =+ g;
+        avgB += b;
+      }
     }
   }
   
-  bgt /= width*height;
+  var avgCol = color(avgR / (cam.width * cam.height), avgG / (cam.width * cam.height), avgB / (cam.width * cam.height));
+  var bgt = brightness(avgCol);
   
   if (bgt >= 0) {
     return bgt;
