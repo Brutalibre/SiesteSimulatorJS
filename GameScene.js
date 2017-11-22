@@ -109,6 +109,7 @@ function GameScene (_bg, _eye, _bgSound, _winScene, _loseScene, _teacher) {
     // If the energy falls to 0, the student falls asleep for some time (stun).
     else if (this.energy < 0 && this.stunTimer == null)  {
       this.isStunned = true;
+      this.eye.isStunned = true;
             
       // Energy is 0 : start stun timer.
       this.stunTimer = new Date();
@@ -122,6 +123,7 @@ function GameScene (_bg, _eye, _bgSound, _winScene, _loseScene, _teacher) {
       if (this.stunIsOver()) {
         this.stunTimer = null;
         this.isStunned = false;
+        this.eye.isStunned = false;
       }
     }
 

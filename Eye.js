@@ -3,20 +3,23 @@ var MAX_LUM = 60;
 var CLOSED_LUM = MAX_LUM / 4;
 var EYE_WIDTH_MULTIPLIER  = 1.65;
 var EYE_HEIGHT_MULTIPLIER = 1.65;
+
 var EYE_SHAPE = "data/Assets/eyeContour.svg";
+var STUN_ASSET    = "data/Assets/stun.png";
 
 function Eye () {
   this.minCamLuminosity = MIN_LUM;
   this.maxCamLuminosity = MAX_LUM;
   this.scoringLevel = CLOSED_LUM;
   
-  //mappedBrightness = mapBgt((minCamLuminosity + maxCamLuminosity) / 2);
   this.isClosed = false;
+  this.isStunned = false;
   
   this.baseWidth = width * EYE_WIDTH_MULTIPLIER;
   this.baseHeight = height * EYE_HEIGHT_MULTIPLIER;
   
-  this.shape = loadImage(EYE_SHAPE);    
+  this.shape = loadImage(EYE_SHAPE);  
+  this.stunBg = loadImage(STUN_ASSET);  
   
   /*
    * Draw the eye depending on the camera average brightness.
@@ -24,7 +27,7 @@ function Eye () {
   this.render = function (brightnessAvg) {
     this.mappedBrightness = this.mapBgt(brightnessAvg);
     this.isClosed = brightnessAvg <= this.scoringLevel;
-    
+      
     imageMode(CENTER);
     image(this.shape, width/2, height/2, this.baseWidth, this.mappedBrightness);
     imageMode(CORNER);
@@ -33,6 +36,9 @@ function Eye () {
     fill(0);
     rect(0, 0, width, height/2 - this.mappedBrightness/2 + this.mappedBrightness/8);
     rect(0, height/2 + this.mappedBrightness/2 - this.mappedBrightness/8, width, height/2 - this.mappedBrightness/2 + this.mappedBrightness/8);
+    
+    if (this.isStunned) 
+      image(this.stunBg, 0, 0, width, height);
   }
   
   /* 
